@@ -1,6 +1,6 @@
 {
   "name": "fa-stylus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "port font awesome to stylus with opt: easy to set up",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "font awesome",
-    "stylus"
+    "stylus",
+    "gulp-stylus"
   ],
   "author": "Shahrul Nizam Selamat, heroicyang",
   "license": "MIT",
