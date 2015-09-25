@@ -1,0 +1,23 @@
+{
+  "name": "fa-stylus",
+  "version": "0.0.1",
+  "description": "port font awesome to stylus with opt: easy to set up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syarul/fa-stylus.git"
+  },
+  "keywords": [
+    "font awesome",
+    "stylus"
+  ],
+  "author": "Shahrul Nizam Selamat, heroicyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syarul/fa-stylus/issues"
+  },
+  "homepage": "https://github.com/syarul/fa-stylus#readme"
+}
