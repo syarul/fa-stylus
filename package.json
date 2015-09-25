@@ -1,6 +1,6 @@
 {
   "name": "fa-stylus",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "port font awesome to stylus with opt: easy to set up",
   "main": "index.js",
   "scripts": {
