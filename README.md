@@ -1,15 +1,15 @@
 # fa-stylus
-Stylus port for Font-Awesome 4.x, and use icons as your needed. 
+Stylus port for Font-Awesome 4.4.0, and use icons as your needed. 
 
-### Install
+## Install
 
 npm install fa-stylus --save
 
-### Initialization
+## Initialization
 
-####setup compiler to use fa-stylus
+###setup compiler to use fa-stylus
 
-Use gulp, grunt etc as you needed, configure your stylus to pipe fa-stylus in 'use', for example with gulp
+Use gulp, grunt etc, configure your stylus to pipe fa-stylus in 'use', for example with gulp
 
 ```javascript
 var fontAwesomeStylus = require( "fa-stylus" );
@@ -30,7 +30,7 @@ gulp.task('main', function () {
 });
 
 ```
-####configure fonts path and import fa-stylus in your project
+###configure fonts path and import fa-stylus in your project
 Move the font folder into your static folder usually 'public' or 'dist', with gulp you can do
 ```javascript
 var filesToMove = [
