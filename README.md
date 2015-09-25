@@ -45,7 +45,7 @@ gulp.task('move',['clean'], function(){
 Declare font path first before @import to allow compiler to pick up the variable
 ```styl
 $fa-font-path = 'fonts'
-@import 'font-awesome-stylus'
+@import 'fa-stylus'
 
 ```
 
