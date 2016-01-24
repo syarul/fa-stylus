@@ -1,7 +1,7 @@
 {
   "name": "fa-stylus",
-  "version": "0.0.5",
-  "description": "port font awesome to stylus with opt: easy to set up",
+  "version": "0.0.6",
+  "description": "port font awesome 4.5.0 to stylus with opt: easy to set up",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

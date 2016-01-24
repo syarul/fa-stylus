@@ -1,5 +1,5 @@
 # fa-stylus
-Stylus port for Font-Awesome 4.4.0, and use icons as your needed. 
+Stylus port for Font-Awesome 4.5.0, and use icons as your needed. 
 
 ## Install
 
@@ -7,7 +7,7 @@ npm install fa-stylus --save
 
 ## Initialization
 
-###setup compiler to use fa-stylus
+**setup compiler to use fa-stylus**
 
 Use gulp, grunt etc, configure your stylus to pipe fa-stylus in 'use', for example with gulp
 
@@ -30,7 +30,9 @@ gulp.task('main', function () {
 });
 
 ```
-###configure fonts path and import fa-stylus in your project
+
+**configure fonts path and import fa-stylus in your project**
+
 Move the font folder into your static folder usually 'public' or 'dist', with gulp you can do
 ```javascript
 var filesToMove = [
@@ -39,7 +41,7 @@ var filesToMove = [
 
 gulp.task('move',['clean'], function(){
   gulp.src(filesToMove)
-  .pipe(gulp.dest('public/fonts'));
+  .pipe(gulp.dest('./dist/fonts'));
 });
 ```
 Declare font path first before @import to allow compiler to pick up the variable
@@ -63,3 +65,7 @@ $fa-font-path = 'fonts'
 // or import all icons
 import-all-icons()
 ```
+
+## Important Notes
+
+For icon '500px' the prefix is changed into 'icon500px', this is to fix parseError regarding stylus trying to compile a string but it read it as unit 500px.
