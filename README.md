@@ -50,7 +50,14 @@ $fa-font-path = 'fonts'
 @import 'fa-stylus'
 
 ```
+`$fa-font-path` is set to `../fonts` by default.
 
+## Other configuration
+
+The variables used by fa-stylus are set by the library only if not already set.
+That means to override them you must set them before importing fa-stylus.
+
+See [`variables.styl`](fa-stylus/icons/variables.styl) for full details.
 
 ## Usage
 
