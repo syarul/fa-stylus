@@ -1,6 +1,6 @@
 {
   "name": "fa-stylus",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "port font awesome 4.5.0 to stylus with opt: easy to set up",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "stylus",
     "gulp-stylus"
   ],
-  "author": "Shahrul Nizam Selamat, heroicyang",
+  "author": "Shahrul Nizam Selamat, heroicyang, Bart Nagel",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/syarul/fa-stylus/issues"
