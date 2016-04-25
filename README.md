@@ -1,9 +1,16 @@
+[![Build Status](https://travis-ci.org/syarul/fa-stylus.svg)](https://travis-ci.org/syarul/fa-stylus)
+
 # fa-stylus
 
 Stylus port of [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
-4.5.0,
+4.6.1,
 allowing icons to be selectively chosen
 or included all at once.
+
+## What's new?
+
+- Added 23 new icons from Font Awesome 4.6
+- Added simple unit test, ensure success on compilation
 
 ## Installation
 
@@ -105,6 +112,13 @@ And then configure `$fa-font-path = '/fonts/font-awesome'` in your stylus.
 
 // Or import all icons
 import-all-icons()
+```
+
+## Test
+
+```
+npm install
+gulp
 ```
 
 ## Important notes

@@ -1,10 +1,10 @@
 {
   "name": "fa-stylus",
-  "version": "0.1.0",
-  "description": "port font awesome 4.5.0 to stylus with opt: easy to set up",
+  "version": "0.2.0",
+  "description": "port font awesome 4.6.1 to stylus with opt: easy to set up",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/syarul/fa-stylus/issues"
   },
-  "homepage": "https://github.com/syarul/fa-stylus#readme"
+  "homepage": "https://github.com/syarul/fa-stylus#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-stylint": "^3.0.0",
+    "gulp-stylus": "^2.3.1"
+  }
 }
