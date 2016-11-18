@@ -1,7 +1,7 @@
 {
   "name": "fa-stylus",
-  "version": "0.3.0",
-  "description": "port font awesome 4.6.1 to stylus with opt: easy to set up",
+  "version": "0.3.1",
+  "description": "port font awesome 4.7 to stylus with opt: easy to set up",
   "main": "index.js",
   "scripts": {
     "test": "gulp"
