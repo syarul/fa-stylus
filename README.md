@@ -3,14 +3,13 @@
 # fa-stylus
 
 Stylus port of [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
-4.6.1,
+4.7,
 allowing icons to be selectively chosen
 or included all at once.
 
 ## What's new?
 
-- Added 23 new icons from Font Awesome 4.6
-- Added simple unit test, ensure success on compilation
+- Added 47 new icons from Font Awesome 4.7
 
 ## Installation
 
