@@ -2,6 +2,8 @@
 
 # fa-stylus
 
+[![Join the chat at https://gitter.im/syarul/fa-stylus](https://badges.gitter.im/syarul/fa-stylus.svg)](https://gitter.im/syarul/fa-stylus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Stylus port of [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
 4.7,
 allowing icons to be selectively chosen
